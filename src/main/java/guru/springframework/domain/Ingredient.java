@@ -22,7 +22,7 @@ public class Ingredient {
     
     @DBRef
     private UnitOfMeasure uom;
-    private Recipe recipe;
+    //private Recipe recipe;
 
     public Ingredient() {
     }
@@ -37,7 +37,7 @@ public class Ingredient {
         this.description = description;
         this.amount = amount;
         this.uom = uom;
-        this.recipe = recipe;
+        //this.recipe = recipe;
     }
 
 }
